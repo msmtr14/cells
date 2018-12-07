@@ -1,0 +1,71 @@
+
+/*============================
+            HEADER
+==============================*/
+header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    border-bottom: 1px solid white;
+
+    & .logo{
+        font-family: $font-header-footer;
+        color: $color_white;
+        font-size: 40px;
+        padding: 11px 0px;
+    }
+
+    & a {
+        margin-left: 20px;
+    }
+
+    & .container {
+        display: flex;
+
+        & .left{
+            width: 250px;
+        }
+
+        & .right{
+            flex-grow: 1;
+            border-left: 1px solid $header_container;
+            border-right: 1px solid $header_container;
+
+            & .top, & .bottom{
+                text-transform: uppercase;
+                font-weight: 700;
+                text-align: right;
+                color:$color_white;
+                font-size: 15px;
+                padding: 10px 20px;
+            }
+
+            & .top{
+                color:$color_header_top;;
+                border-bottom: 1px solid $color_white;
+            }
+         }
+    }
+
+    & .cart_link {
+        display: inline-block;
+        position: relative;
+
+        & span {
+            position: absolute;
+            background: $color-red;
+            top: 2px;
+            color: $card_link_color_hover;
+            left: -8px;
+            border-radius: 50%;
+            padding: 0px 7px 2px 7px;
+            font-size: 12px;
+        }
+    }
+    
+    & .log_out_link {
+        cursor: pointer;
+        display: inline-block;
+        margin-left: 20px;
+    }
+}

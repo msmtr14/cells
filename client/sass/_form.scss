@@ -1,0 +1,91 @@
+
+/*============================
+            FORM
+==============================*/
+
+input {
+    font-size: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+
+button {
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px;
+    background: $button;
+    margin-top: 10px;
+    font-family: $font-primary;
+    font-size: 16px;
+}
+
+.error_label {
+    color: $error_label;
+    display:block;
+    font-size: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 51px;
+    font-size: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px solid $form_text_area;
+}
+
+.form_devider {
+    border-bottom: 3px solid $color-primary;
+    margin: 40px 0px;
+}
+
+.label_inputs {
+    display: inline-block;
+    background: $color-primary;
+    color: $color_white;
+    padding: 5px 5px;
+}
+
+select {
+    font-size: 16px;
+    height: 38px;
+    border: 1px solid $border;
+    border-radius: 3px;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+.formBlock {
+    margin-bottom: 10px;
+}
+
+.form{
+    &_success{
+        background: $form_label_success;
+        color: $color_white;
+        padding: 10px;
+        display: block;
+    }
+
+    &_block_two{
+        display:flex;
+        
+        .block{
+            flex-grow: 1;
+            box-sizing: border-box;
+        }
+
+        .block::nth-child(1){
+            padding-right: 10px;
+        }
+
+        .block::nth-child(2){
+            padding-left: 10px;
+        }
+
+
+    }
+}

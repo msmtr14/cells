@@ -1,0 +1,97 @@
+// COLORS
+
+$color-primary: #999592;
+$color-primary-dark: #272723;
+$color-body: #404040;
+
+$color-red: #FF0000;
+
+$color-load_more_bg: #f5f5f5;
+$color-load_more_sp: #2196F3;
+
+$color-secondary: #101d2c;
+$color_white: #ffffff;
+
+$color-assets: #dddddd; 
+$color_header_top: #c9c9c9;
+
+$button: #e1ddc3;
+$error_label: #F44336;
+$border: #e9e9e9;
+$form_label_success: #4CAF50; 
+$form_text_area: #d1d1d1;
+
+$link_border: #dcdcdc; 
+$link_color: #c3c0b1; 
+$link_bg: #f8f8f8; 
+
+$card_link: #aaaaaa; 
+$card_link_color_hover: #ffff; 
+$card_link_color: #6b6b6b; 
+$card_link_bg: #d9d9d9; 
+
+$header_container: #eeeeee; 
+$footer_border_bottom: #4d4d4d; 
+$footer_wrapper: #828282; 
+$featured_container: #82828287; 
+
+$card_item_wrapper_border: #f0f0f0; 
+$card_item_wrapper_border2: #e6e6e6; 
+$grid_btn: #c6c6c6; 
+$grid_btn_active: #727272; 
+
+$shop_options: #e8e8e8; 
+
+$product_detail_wrapper: #d3d3d3; 
+$product_detail_wrapper_tags: #e4e4e4; 
+
+$user_cart_sum_border: #e7e7e7; 
+$user_cart_sum_bg: #f7f7f7; 
+
+$cart_items: #717171; 
+
+$product_detail: #838383; 
+
+$register_login: #686868; 
+
+$brand_container: #f1f1f1; 
+
+$dropzone: #e5e5e5; 
+$dropzone_box: #eaeaea; 
+
+$product_block: #ebebeb;
+
+// FONT-FAMILIES
+
+$font-primary: 'Oswald', sans-serif;
+$font-table: 'arial', sans-serif;
+$font-header-footer: 'Monoton', cursive;
+$font-product: Arial, Helvetica;
+
+// BODY-PART
+
+body {
+    margin:0;
+    padding:0;
+    font-family: $font-primary;
+    color: $color-body;
+}
+
+.container {
+    width:1100px;
+    margin: 0 auto;
+}
+
+.page_container {
+    min-height: 75vh;
+    padding-top: 85px;
+}
+
+.main_loader {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.page_wrapper {
+    padding-top: 85px;
+}

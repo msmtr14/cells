@@ -1,0 +1,195 @@
+
+/*=============================
+         REGISTER LOGIN
+===============================*/
+
+.register{
+    &_login{
+        &_container{
+            display: flex;
+            border: 1px solid $color-primary;
+            border-top: 5px solid $color-primary;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 80px 0px 110px 0px;
+            padding: 30px;
+            min-height: 430px;
+
+            & .left,
+            & .right{
+                flex:1
+            }
+
+            & h2{
+                margin: 20px 0px;
+                text-transform: uppercase;
+                color: $register_login;
+            }
+
+            & p{
+                font-weight: 300;
+                font-size: 16px;
+                width: 90%;
+            }
+        }
+    }
+}
+
+
+/*=============================
+         USER
+===============================*/
+
+.user{
+    &_container{
+        display:flex;
+        margin-bottom: 50px;
+        min-height: 700px;
+
+        & .user{
+            &_left{
+                &_nav{
+                    border-right: 1px solid $link_bg; 
+
+                    & .links a{
+                        display: block;
+                        border-bottom: 1px solid $color-assets;
+                        font-size: 20px;
+                        font-weight: 300;
+                        padding: 10px 0px;
+                        width: 280px;
+                    }
+                }
+            }
+
+            &_right{
+                flex-grow: 1;
+                padding: 0 0 0 29px;
+            }
+
+            &_nfo{
+                &_panel{
+                    background: $link_bg;
+                    padding: 20px;
+                    margin-top: 20px;
+
+                    & h1{
+                        margin: 0 0 20px 0;
+                        line-height: 32px;
+                        text-transform: uppercase;
+                        font-size: 25px;
+                    }
+
+                    & span{
+                        display: block;
+                        font-size: 18px;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+
+    &_product{
+        &_block{
+            display: flex;
+            flex-wrap: wrap;
+            background: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid $product_block;
+
+            & .item{
+                flex-grow: 1;
+
+                & .image{
+                    height: 125px;
+                    background-size: contain !important;
+                    background-repeat: no-repeat !important;
+                    background-position: center center !important;
+                    margin-right: 10px;
+                }
+
+                &.btn{
+                    width: 0px;
+                }
+            }
+
+            & .cart_remove_btn {
+                cursor: pointer;
+                background: $error_label;
+                display: inline-block;
+                padding: 5px 10px;
+                color: $color_white;
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+
+/*=============================
+         ADMIN
+===============================*/
+
+.admin{
+    &_category{
+        &_wrapper{
+            padding-bottom: 50px;
+            border-bottom: 4px solid $border;
+        }
+    }
+
+    &_two_column{
+        display: flex;
+
+        & .right{
+            flex-grow: 1;
+        }
+    }
+}
+
+.brands{
+    &_container{
+        height: 200px;
+        overflow-y: scroll;
+        margin-right: 20px;
+
+        & .category_item{
+            width: 200px;
+            font-size: 20px;
+            font-weight: 300;
+            border: 1px solid $brand_container;
+            padding: 10px;
+            position: relative;
+            background: $color-primary;
+            color: $color_white;
+        }
+    }
+}
+
+
+.dropzone {
+    border: 1px solid $dropzone;
+    margin-bottom: 40px;
+
+    &_box{
+        float: left;
+        width: 25%;
+        height: 160px;
+        padding: 10px;
+        box-sizing: border-box;
+
+        & .wrap{
+            background: $dropzone_box;
+            height: 100%;
+            text-align: center;
+            padding-top: 31px;
+            box-sizing: border-box;
+            font-size: 49px;
+            background-size: contain !important;
+            background-position: center center !important;
+            border: 1px solid $dropzone_box;
+        }
+    }
+}

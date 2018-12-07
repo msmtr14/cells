@@ -1,0 +1,94 @@
+
+
+/*============================
+            BUTTONS
+==============================*/
+.link_default {
+    text-transform: uppercase;
+    padding: 10px;
+    display: table;
+    background: $button;
+    margin-top: 10px;
+}
+
+.card{
+    &_link{
+        width: 100%;
+        border: 1px solid $link_border;
+        padding: 5px 10px;
+        display: block;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $link_color;
+        background: $link_bg;
+        transition: all 200ms ease-in;
+        cursor: pointer;
+    }
+
+    &_link:hover{
+        background: $card_link;
+        color: $card_link_color_hover;
+    }
+}
+
+.bag{
+    &_link{
+        width: 100%;
+        border: 1px solid $link_border;
+        padding: 5px 10px;
+        display: block;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $link_color;
+        background: $link_bg;
+        transition: all 200ms ease-in;
+        cursor: pointer;
+    }
+
+    &_link:hover{
+        background: $card_link;
+        color: $card_link_color_hover;
+    }
+}
+
+
+.add_to_cart_link {
+    width: 100%;
+    border: 1px solid $link_border;
+    padding: 5px 10px;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $link_color;
+    background: $link_bg;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+
+    &:hover{
+        background: $card_link;
+        color: $card_link_color_hover;
+    }
+
+    & svg {
+        margin-right: 10px;
+    }
+
+    &{
+        color: $card_link_color;
+        background: $card_link_bg;
+    }
+}
+
+.action_button {
+    text-transform: uppercase;
+    padding: 10px;
+    display: table;
+    background: $button;
+    margin-top: 10px;
+}

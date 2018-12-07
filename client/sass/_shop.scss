@@ -1,0 +1,186 @@
+
+/*============================
+        SHOP
+==============================*/
+
+.shop{
+    &_wrapper{
+        display:flex;
+
+        & .left {
+            flex-grow: 1;
+        }
+
+        & .right {
+            width: 800px;
+        } 
+    }
+
+    &_options{
+        border-bottom: 1px solid $shop_options;
+        margin: 0px 20px 20px 20px;
+    }
+}
+
+
+.collapse_title span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.grid_btn {
+    float: right;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: $grid_btn;
+
+    &.active {
+        color: $grid_btn_active;
+    }
+    
+}
+
+
+/*============================
+        PRODUCT DETAIL
+==============================*/
+
+.product{
+    &_detail{
+        &_wrapper{
+            display: flex;   
+            margin-bottom: 140px;
+
+            & .right{
+                flex-grow: 1; 
+                min-height: 800px;
+            }
+
+            & p {
+                font-size: 17px;
+                font-family: $font-product;
+                font-weight: lighter;
+            }
+
+            & .product{
+                  
+                &_tags{
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid $product_detail_wrapper;
+
+                    & .tag{
+                        display: flex;
+                        margin-bottom: 20px;
+
+                        & svg{
+                            font-size: 43px;
+                            color: $product_detail_wrapper_tags;
+                            width: 50px;
+                        }
+
+                        & .tag_text{
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            color: $color-primary;
+                            padding-left: 20px;
+                        }
+                    }
+                }
+
+                &_actions{
+                    padding: 20px 0px 30px 0px;
+                    border-bottom: 1px solid $product_detail_wrapper;
+                
+                    & .price{
+                        font-size: 40px;
+                        font-weight: 300;
+                    }
+
+                    & .cart{
+                        width: 149px;
+                    }
+                }   
+                
+                &_specifications .item{
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    color: $product_detail;
+                }
+
+                &_image_container {
+                    margin-top: 30px;
+                    padding-right: 70px;
+                }
+            }
+
+            & .main{
+                &_pic{
+                    box-sizing: border-box;
+                    cursor: pointer;
+
+                    & div{
+                        width: 100%;
+                        height: 446px;
+                        border: 1px solid $card_link_bg;
+                        background-size: contain !important;
+                        background-position: center center !important;
+                    }
+                }
+
+                &_thumbs{
+                    margin-top: 10px;
+
+                    &  .thumb{
+                        cursor: pointer;
+                        height: 200px;
+                        width: 50%;
+                        background-size: cover !important;
+                        background-position: bottom center !important;
+                        border: 1px solid $shop_options;
+                        box-sizing: border-box;
+                        float: left;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*============================
+        CART
+==============================*/
+
+.user_cart_sum {
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid $user_cart_sum_border;
+    background: $user_cart_sum_bg;
+    padding: 20px 30px;
+}
+
+.cart{
+    &_no_items svg ,
+    &_success svg {
+        font-size: 130px;
+        color: $cart_items;
+    }
+
+    &_no_items,
+    &_success {
+        text-align: center;
+        font-size: 28px;
+        color: $color-primary;
+    }
+}
+
+
+/*============================
+        PAYPAL
+==============================*/
+
+
+.paypal_button_container{
+    margin: 10px 0px;
+}

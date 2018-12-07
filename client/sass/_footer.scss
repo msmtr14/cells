@@ -1,0 +1,49 @@
+
+/*============================
+            FOOTER
+==============================*/
+
+
+footer{
+    & .logo {
+        text-align: center;
+        font-family: $font-header-footer;
+        color: $color_white;
+        font-size: 40px;
+        padding: 11px 0px;
+        border-bottom: 1px solid $footer_border_bottom;
+    }
+
+    & .wrapper {
+        display: flex;
+        color: $footer_wrapper;
+    }
+
+    & .left,
+    &.right{
+        flex: 1;
+    }
+
+    & .business_nfo{
+        display: flex;
+        flex-wrap: wrap;
+
+        & .tag {
+            flex-grow: 1;
+            position: relative;
+            width: 50%;
+            margin-bottom: 30px;
+        }
+
+        & .icon{
+            position: absolute;
+            font-size: 26px;
+            top: 10px;
+        }
+
+        & .nfo{
+            padding-left: 40px;
+        }
+    }
+}
+

@@ -1,0 +1,17 @@
+{
+    "_id" : ObjectId("5b2d3648ca6a03cd33af924c"),
+    "sold" : 500,
+    "name" : "OnePlus 6",
+    "description" : "Fastest Mobile in the World",
+    "price" : 2000,
+    "brand" : ObjectId("5b2c11d2d37177aedfd6d962"),
+    "shipping" : true,
+    "available" : true,
+    "body" : ObjectId("5b2c1c88255983b4795f8fdb"),
+    "ram" : 8,
+    "publish" : true,
+    "createdAt" : ISODate("2018-06-22T17:47:52.838Z"),
+    "updatedAt" : ISODate("2018-06-26T22:09:18.969Z"),
+    "__v" : 0
+}
+
