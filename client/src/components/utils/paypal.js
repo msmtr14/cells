@@ -23,7 +23,7 @@ class Paypal extends Component {
             //         "postal_code": "95131", 
             //         "country_code": "US" 
             //     }, 
-            //     "email": "fernando.lobo.prez-buyer@gmail.com" 
+            //     "email": "<username>@gmail.com" 
             // }
 
 
@@ -42,7 +42,7 @@ class Paypal extends Component {
         let total = this.props.toPay;
 
         const client = {
-            sandbox:'AfbA2-qjz92KhC5IDxvx2UpiIDBmSD7PdlKkZk1-OndNwg7Wc5wVAJKlPWQJcHwioMFz0kn4zOXnbqGW',
+            sandbox:'AS6h2TZt11MXFbiF4qVZpbg_e5q1zG1WwKR2t1LUMdlQEswom_S0FrECwMKQvh2k7la9TuDpUDghU216',
             production:''
         }
         

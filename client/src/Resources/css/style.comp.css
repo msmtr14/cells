@@ -405,8 +405,9 @@ footer .business_nfo {
 ==============================*/
 .featured_container .featured_image {
   position: relative;
-  background-size: cover !important;
-  background-position: center left !important; }
+  background-size: cover;
+  background-position: center left !important;
+  background-repeat: no-repeat; }
 
 .featured_container .featured_action {
   position: absolute;

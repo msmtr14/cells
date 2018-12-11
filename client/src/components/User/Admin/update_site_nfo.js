@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import FormField from '../../utils/Form/formfield';
 import { update, generateData, isFormValid,populateFields } from '../../utils/Form/formActions';
 
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 import { getSiteData, updateSiteData } from '../../../actions/site_actions';
 
 class UpdateSiteNfo extends Component {
